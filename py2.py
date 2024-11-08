@@ -1,6 +1,7 @@
 def introduction(Username):
     print("Hello, my name is", Username)
 
+    
 name = input("Enter your name: ")
 introduction(name)
 
@@ -8,9 +9,9 @@ introduction(name)
 
 def factorial(num):
     if num == 1:
-        return(num)
+        return num
     else:
-        return(num*(factorial(num-1))) 
+        return num*factorial(num-1) 
 
 n = int(input("Enter a number: "))
 
